@@ -253,6 +253,10 @@ header > .container nav > ul > li > a {
     --num: calc(12 / 12);
     width: calc(100% / var(--num) - 50px);
     margin: 0px 25px 60px 25px;
+
+  }
+  footer > .container>.row img {
+    width: 40px;
   }
 }
 @media (min-width: 1200px) {
@@ -327,6 +331,9 @@ header > .container nav > ul > li > a {
     width: calc(100% / var(--num) - 50px);
     margin: 0px 25px 60px 25px;
   }
+  footer > .container>.row img {
+    width: 40px;
+  }
 }
 @media (min-width: 768px) {
   .order-md-1 {
@@ -347,13 +354,31 @@ h2 {
   font-size: 2em;
   margin: 50px auto 30px auto;
 }
+/*================================== footer============================ */
 
 footer {
-  background-color: #4f8b77;
-  padding: 40px 0 40px 0;
+  height: 120px;
+  background-color: #DEBEC1;
+  padding: 20px 0 20px 0;
+}
+footer>.container>.row nav{
+  width: 100%;
+}
+footer>.container>.row ul{
+  display: flex;  
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+footer>.container>.row li{
+  margin:0px 20px 0px 20px;
+}
+footer>.container>.row nav>p{
+  margin-top: 50px;
 }
 
-dt {
+  
+/* dt {
   font-size: 1.2em;
   margin-bottom: 10px;
   color: #363230;
@@ -365,7 +390,7 @@ dd {
 
 dd > a {
   color: #363230;
-}
+} */
 
 .breadcrumb {
   display: flex;
@@ -476,11 +501,12 @@ dd > a {
     width: 100%;
     position: absolute;
     top: 100px;
-    background-color: #363230;
+    background-color: #DEBEC1
+
   }
 
   nav {
-    display: none;     /* 先把下拉式選單關掉 */
+    /* display: none;     先把下拉式選單關掉 */
     left: 0px;
     transition: all 0.3s;
   }
@@ -500,7 +526,7 @@ dd > a {
   header > .container nav > ul > li {
     width: 100%;
     text-align: center;
-    border-bottom: 1px solid #363230;
+    border-bottom: 1px solid #9C5156;
   }
 
   header > .container nav > ul > li > a {
@@ -510,7 +536,7 @@ dd > a {
 
   .submenu {
     display: none;
-    background-color: #b6b6b6;
+    background-color: #9C5156;
   }
 
   header > .container nav > ul > li:hover .submenu {
@@ -523,9 +549,10 @@ dd > a {
   }
 
   .submenu > li > a {
-    color: #222222;
+    color: #fff;
     display: block;
   }
+
 }
 @media (min-width: 768px) {
   .icon-menu {
