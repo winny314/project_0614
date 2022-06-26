@@ -73,8 +73,15 @@ header > .container nav > ul > li > a {
 .text-center {
   text-align: center;
 }
-
+.text-center-h2{
+  display: block;
+  text-align: center;
+  border-left: 2px #B79483 solid;
+  border-right: 2px #B79483 solid;
+}
 .text-left {
+  margin: 0;
+  padding: 0;
   text-align: left;
 }
 
@@ -94,220 +101,220 @@ header > .container nav > ul > li > a {
 
 .col-1 {
   --num: calc(12 / 1);
-  width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  width: calc(100% / var(--num) - 50px);
+  margin: 0px 25px 60px 25px;
 }
 
 .col-2 {
   --num: calc(12 / 2);
-  width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  width: calc(100% / var(--num) - 50px);
+  margin: 0px 25px 60px 25px;
 }
 
 .col-3 {
   --num: calc(12 / 3);
-  width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  width: calc(100% / var(--num) - 50px);
+  margin: 0px 25px 60px 25px;
 }
 
 .col-4 {
   --num: calc(12 / 4);
-  width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  width: calc(100% / var(--num) - 50px);
+  margin: 0px 25px 60px 25px;
 }
 
 .col-5 {
   --num: calc(12 / 5);
-  width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  width: calc(100% / var(--num) - 50px);
+  margin: 0px 25px 60px 25px;
 }
 
 .col-6 {
   --num: calc(12 / 6);
-  width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  width: calc(100% / var(--num) - 40px);
+  margin: 0px 20px 60px 20px;
 }
 
 .col-7 {
   --num: calc(12 / 7);
-  width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  width: calc(100% / var(--num) - 50px);
+  margin: 0px 25px 60px 25px;
 }
 
 .col-8 {
   --num: calc(12 / 8);
-  width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  width: calc(100% / var(--num) - 50px);
+  margin: 0px 25px 60px 25px;
 }
 
 .col-9 {
   --num: calc(12 / 9);
-  width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  width: calc(100% / var(--num) - 50px);
+  margin: 0px 25px 60px 25px;
 }
 
 .col-10 {
   --num: calc(12 / 10);
-  width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  width: calc(100% / var(--num) - 50px);
+  margin: 0px 25px 60px 25px;
 }
 
 .col-11 {
   --num: calc(12 / 11);
-  width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  width: calc(100% / var(--num) - 50px);
+  margin: 0px 25px 60px 25px;
 }
 
 .col-12 {
   --num: calc(12 / 12);
-  width: calc(100% / var(--num) - 30px);
-  margin: 0px 15px 40px 15px;
+  width: calc(100% / var(--num) - 50px);
+  margin: 0px 25px 60px 25px;
 }
 
 @media (min-width: 768px) {
   .col-md-1 {
     --num: calc(12 / 1);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-md-2 {
     --num: calc(12 / 2);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-md-3 {
     --num: calc(12 / 3);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-md-4 {
     --num: calc(12 / 4);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-md-5 {
     --num: calc(12 / 5);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-md-6 {
     --num: calc(12 / 6);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-md-7 {
     --num: calc(12 / 7);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-md-8 {
     --num: calc(12 / 8);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-md-9 {
     --num: calc(12 / 9);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-md-10 {
     --num: calc(12 / 10);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-md-11 {
     --num: calc(12 / 11);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-md-12 {
     --num: calc(12 / 12);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 }
 @media (min-width: 1200px) {
   .col-lg-1 {
     --num: calc(12 / 1);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-lg-2 {
     --num: calc(12 / 2);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-lg-3 {
     --num: calc(12 / 3);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-lg-4 {
     --num: calc(12 / 4);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-lg-5 {
     --num: calc(12 / 5);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-lg-6 {
     --num: calc(12 / 6);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-lg-7 {
     --num: calc(12 / 7);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-lg-8 {
     --num: calc(12 / 8);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-lg-9 {
     --num: calc(12 / 9);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-lg-10 {
     --num: calc(12 / 10);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-lg-11 {
     --num: calc(12 / 11);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 
   .col-lg-12 {
     --num: calc(12 / 12);
-    width: calc(100% / var(--num) - 30px);
-    margin: 0px 15px 40px 15px;
+    width: calc(100% / var(--num) - 50px);
+    margin: 0px 25px 60px 25px;
   }
 }
 @media (min-width: 768px) {
@@ -327,7 +334,7 @@ header > .container nav > ul > li > a {
 
 h2 {
   font-size: 2em;
-  margin: 60px auto 30px auto;
+  margin: 50px auto 30px auto;
 }
 
 footer {
@@ -440,7 +447,7 @@ dd > a {
     background-color: #b6e0b5;
     color: #494949;
     text-decoration: none;
-    line-height: 60px;
+    line-height: 100px;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
@@ -453,11 +460,12 @@ dd > a {
   header > .container nav {
     width: 100%;
     position: absolute;
-    top: 60px;
+    top: 100px;
     background-color: #858585;
   }
 
   nav {
+    display: none;     /* 先把下拉式選單關掉 */
     left: 0px;
     transition: all 0.3s;
   }
