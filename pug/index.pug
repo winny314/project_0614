@@ -10,7 +10,7 @@ html(lang='en')
     // header start
     header
       .container
-        .row.flex-space-between
+        .row.flex-start
           h1
             a(href='index.html') 
               img(src="public/images/logo_KU_YUN.png" alt="")
@@ -48,7 +48,7 @@ html(lang='en')
               li
                 a(href='#') 門市資訊
     // header end
-
+  
     img.img-fluid(src='https://picsum.photos/1920/360' alt='')
     // content start
     // .container>h1{最新作品一覽}+.row>.col-md-4*6>img.img-fluid+p.title>a[href="#"]{標題$}^p.description{內容}
@@ -58,86 +58,99 @@ html(lang='en')
       img.img-fluid(src='https://picsum.photos/1140/122' alt='')
       h2.text-center-h2 精選商品
       .row
-        .col-6.col-md-4.col-lg-2
+        .col-6.col-md-4.col-lg-4
           a(href='')
             img.img-fluid.img-rounded(src='https://picsum.photos/220/220' alt='')
           p.title.text-center
             a(href='') 發條王子
           p.date.text-center 2022-6-15
-        .col-6.col-md-4.col-lg-2
+        .col-6.col-md-4.col-lg-4
           a(href='')
             img.img-fluid.img-rounded(src='https://picsum.photos/220/220' alt='')
           p.title.text-center
             a(href='') 發條老鼠
           p.date.text-center 2022-6-15
-        .col-6.col-md-4.col-lg-2
+        .col-6.col-md-4.col-lg-4
           a(href='')
             img.img-fluid.img-rounded(src='https://picsum.photos/220/220' alt='')
           p.title.text-center
             a(href='') 發條熊
           p.date.text-center 2022-6-15
-        .col-6.col-md-4.col-lg-2
+        .col-6.col-md-4.col-lg-4
           a(href='')
             img.img-fluid.img-rounded(src='https://picsum.photos/220/220' alt='')
           p.title.text-center
             a(href='') 能量發條
           p.date.text-center 2022-6-15
-        .col-6.col-md-4.col-lg-2
+        .col-6.col-md-4.col-lg-4
           a(href='')
             img.img-fluid.img-rounded(src='https://picsum.photos/220/220' alt='')
           p.title.text-center
             a(href='') 能量發條
           p.date.text-center 2022-6-15
-        .col-6.col-md-4.col-lg-2
+        .col-6.col-md-4.col-lg-4
           a(href='')
             img.img-fluid.img-rounded(src='https://picsum.photos/220/220' alt='')
           p.title.text-center
             a(href='') 能量發條
           p.date.text-center 2022-6-15  
       
+      h2.text-center-h2 最新上架
+      .row
+        .col-6.col-md-4.col-lg-4
+          a(href='')
+            img.img-fluid.img-rounded(src='https://picsum.photos/220/220' alt='')
+          p.title.text-center
+            a(href='') 發條王子
+          p.date.text-center 2022-6-15
+        .col-6.col-md-4.col-lg-4
+          a(href='')
+            img.img-fluid.img-rounded(src='https://picsum.photos/220/220' alt='')
+          p.title.text-center
+            a(href='') 發條老鼠
+          p.date.text-center 2022-6-15
+        .col-6.col-md-4.col-lg-4
+          a(href='')
+            img.img-fluid.img-rounded(src='https://picsum.photos/220/220' alt='')
+          p.title.text-center
+            a(href='') 發條熊
+          p.date.text-center 2022-6-15
+        .col-6.col-md-4.col-lg-4
+          a(href='')
+            img.img-fluid.img-rounded(src='https://picsum.photos/220/220' alt='')
+          p.title.text-center
+            a(href='') 能量發條
+          p.date.text-center 2022-6-15
+        .col-6.col-md-4.col-lg-4
+          a(href='')
+            img.img-fluid.img-rounded(src='https://picsum.photos/220/220' alt='')
+          p.title.text-center
+            a(href='') 能量發條
+          p.date.text-center 2022-6-15
+        .col-6.col-md-4.col-lg-4
+          a(href='')
+            img.img-fluid.img-rounded(src='https://picsum.photos/220/220' alt='')
+          p.title.text-center
+            a(href='') 能量發條
+          p.date.text-center 2022-6-15  
     // content end
     // footer>.container>.row>dl.col-md-3*5>dt{標題$$}+dd*4>a{項目$$}^^^p.copyright.text-center{copyright}
   footer
       .container
-        .row
-          dl.col-12.col-md-3
-            dt 標題01
-            dd
-              a(href='#') 項目01
-            dd
-              a(href='#') 項目02
-            dd
-              a(href='#') 項目03
-            dd
-              a(href='#') 項目04
-          dl.col-12.col-md-3
-            dt 標題02
-            dd
-              a(href='#') 項目01
-            dd
-              a(href='#') 項目02
-            dd
-              a(href='#') 項目03
-            dd
-              a(href='#') 項目04
-          dl.col-12.col-md-3
-            dt 標題03
-            dd
-              a(href='#') 項目01
-            dd
-              a(href='#') 項目02
-            dd
-              a(href='#') 項目03
-            dd
-              a(href='#') 項目04
-          dl.col-12.col-md-3
-            dt 標題04
-            dd
-              a(href='#') 項目01
-            dd
-              a(href='#') 項目02
-            dd
-              a(href='#') 項目03
-            dd
-              a(href='#') 項目04
+        ul
+          li
+            a(href="") 
+              img(src="", alt="")
+        ul
+          li
+            a(href="")
+              img(src="", alt="") 
+        ul
+          li
+            a(href="") 
+              img(src="", alt="")
+        ul
+          li
+            a(href="") 
+              img(src="", alt="")
         p.copyright.text-center 本站僅供學習使用，不用於商業用途  

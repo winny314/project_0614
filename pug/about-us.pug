@@ -8,13 +8,14 @@ html(lang='en')
     link(rel='stylesheet' href='public/css/style.css')
   body
     // header start
-    header.overflow-hidden
+    header
       .container
-        a.icon-menu(href="#") Menu 
-        h1
-          a(href='index.html')
-            img(src="public/images/logo_KU_YUN.png" alt="")
-        nav
+        .row.flex-space-between
+          h1
+            a(href='index.html') 
+              img(src="public/images/logo_KU_YUN.png" alt="")
+          a.icon-menu(href="#") Menu 
+          nav
             ul
               li
                 a(href='about-us.html') 彈撥樂
